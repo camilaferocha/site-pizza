@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    box-sizing:border-box;
+}
+
+body{
+    font-family: 'Roboto';
+    margin: 10;
+    padding: 10;
+}
+
+.container{
+    width: 960px;
+    background-color: white;
+    margin: 0 auto;
+}
+
+.cabecalho{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #b22d00;
+    padding: 10px 30px;
+    color: white
+}
+
+.navegacao{
+    background-color: #d9a300;
+    padding: 10px 30px;
+    justify-content: left;
+    color: black;
+}
+
+.menu-principal{
+    display: flex;
+}
+
+.menu-principal li {
+    margin-right: 10px;
+}
+
+.menu-principal a{
+    text-decoration: none;
+    font-family: 12px;
+    color: black;
+}
+
+.conteudo{
+    margin: 10px;
+    padding: 10px;
+}
+
+.titulo{
+    font-size: 30px;
+    font-weight:500;
+    text-align: left;
+    margin-bottom: 15px;
+
+}
+
+.linha{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.horizontal{
+    height: 5px;
+    background: black;
+    margin-bottom: 30px;
+}
+
+.coluna-1 p,
+.coluna-2 p,
+.coluna-3 p{
+    font-weight: 500;
+    line-height: 130%;
+    font-size: 14px;
+    margin-bottom: 10px;
+    margin-left: 115px;
+    margin-right: 115px;
+}
+
+.coluna1, .coluna2, .coluna3{
+    padding: 100px;
+}
+
+.coluna1, .coluna2, .coluna3 img{
+    width: 300px;
+    height: 225px;
+    object-fit: cover;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.lateral{
+    font-size: 14px;
+    text-align: left;
+    margin-bottom: 15px;
+    margin-left: 30px;
+
+}
+
+.sabor1{
+    font-size: 30px;
+    font-weight:500;
+    text-align: left;
+    margin-bottom: 15px;
+    margin-left: 30px;
+}
+
+.sabor2{
+    font-size: 30px;
+    font-weight:500;
+    text-align: left;
+    margin-bottom: 15px;
+    margin-left: 30px;
+}
+
+.sabor3{
+    font-size: 30px;
+    font-weight:500;
+    text-align: left;
+    margin-bottom: 15px;
+    margin-left: 30px;
+}
+
+.lateral-direita{
+    font-size: 14px;
+    text-align: left;
+    margin-bottom: 15px;
+    margin-left: 30px;
+}
+
+.casa{
+    font-size: 30px;
+    font-weight:500;
+    text-align: right;
+    margin-bottom: 15px;
+    margin-left: 30px;
+}
+
+.lugar{
+    font-size: 30px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.lateral-direita img{
+    width: 200px;
+    float: left;
+    margin: 10px 10px 0 0;
+    padding: 5px;
+}
+
+.clear {
+    clear: both;
+}
+
+.rodape{
+    font-size: 12px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(48, 48, 48);
+    padding: 10px 30px;
+    color: white
+}
+
+.textos{
+    align-content: space-between;
+}
+
